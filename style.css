@@ -93,3 +93,13 @@ img {
   width: 150px;
   height: auto;
 }
+
+.button {
+  float: center;
+  color: lightskyblue;
+  text-align: center;
+  padding: 6px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 20px;
+}
