@@ -94,12 +94,29 @@ img {
   height: auto;
 }
 
-.button {
-  float: center;
-  color: lightskyblue;
+Button {
+  margin: 5px;
+  outline: none;
+  border: none;
+  width: auto;
+  background: none;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid #3498db;
+  border-color: #2ecc71;
+  padding: 20px 40px;
+  transition: 0.25s;
+  font-size: 25px;
+  font-weight: 500px;
+  color: black;
+  position: relative;
   text-align: center;
-  padding: 6px 10px;
-  text-decoration: none;
-  font-size: 14px;
-  padding: 20px;
+  display: inline-block;
+}
+
+Button:hover {
+  background: #2ecc71;
+  cursor: pointer;
+  padding: 20px 50px;
+  transition: 0.25s;
 }
